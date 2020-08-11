@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Url-Shortener/static/css/main.87251ec5.chunk.css",
+    "main.js": "/Url-Shortener/static/js/main.bb0aeb8f.chunk.js",
+    "main.js.map": "/Url-Shortener/static/js/main.bb0aeb8f.chunk.js.map",
+    "runtime-main.js": "/Url-Shortener/static/js/runtime-main.7d9d884a.js",
+    "runtime-main.js.map": "/Url-Shortener/static/js/runtime-main.7d9d884a.js.map",
+    "static/js/2.97a8c5f5.chunk.js": "/Url-Shortener/static/js/2.97a8c5f5.chunk.js",
+    "static/js/2.97a8c5f5.chunk.js.map": "/Url-Shortener/static/js/2.97a8c5f5.chunk.js.map",
+    "index.html": "/Url-Shortener/index.html",
+    "precache-manifest.4435509a45c4dce92aa7ed4472327327.js": "/Url-Shortener/precache-manifest.4435509a45c4dce92aa7ed4472327327.js",
+    "service-worker.js": "/Url-Shortener/service-worker.js",
+    "static/css/main.87251ec5.chunk.css.map": "/Url-Shortener/static/css/main.87251ec5.chunk.css.map",
+    "static/js/2.97a8c5f5.chunk.js.LICENSE.txt": "/Url-Shortener/static/js/2.97a8c5f5.chunk.js.LICENSE.txt",
+    "static/media/bg-boost-desktop.svg": "/Url-Shortener/static/media/bg-boost-desktop.dc8b886b.svg",
+    "static/media/desktop-input.svg": "/Url-Shortener/static/media/desktop-input.a82de60e.svg",
+    "static/media/homepage.svg": "/Url-Shortener/static/media/homepage.5029d049.svg",
+    "static/media/icon-facebook.svg": "/Url-Shortener/static/media/icon-facebook.7febcff9.svg",
+    "static/media/icon-instagram.svg": "/Url-Shortener/static/media/icon-instagram.996b697c.svg",
+    "static/media/icon-pinterest.svg": "/Url-Shortener/static/media/icon-pinterest.c557c3d4.svg",
+    "static/media/icon-twitter.svg": "/Url-Shortener/static/media/icon-twitter.cb4fea0b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d9d884a.js",
+    "static/js/2.97a8c5f5.chunk.js",
+    "static/css/main.87251ec5.chunk.css",
+    "static/js/main.bb0aeb8f.chunk.js"
+  ]
+}
