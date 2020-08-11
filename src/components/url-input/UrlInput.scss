@@ -1,0 +1,115 @@
+.inpt{
+    padding: 0vh 0vw;
+    
+    position: relative;
+    bottom: -6.9vh;
+}
+.url-input-c{
+
+    background-color: hsl(257, 27%, 26%);
+    width: 80vw;
+    height: 14vh;
+    border-radius: 10px;
+    
+    
+}
+.hidden{
+    display: none;
+}
+
+.url-box{
+    border: none;
+    height: 7.5vh;
+    width: 63vw;
+    margin-right: 1vw;
+    padding-left: 2vw;
+    border-radius: 6px;
+    font-size: 1rem;
+    &:focus{
+        outline: none;
+    }
+}
+
+.err-text{
+    position: relative;
+    top: 0px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: hsl(0, 87%, 67%);
+}
+.input-box-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 7px;
+    
+}
+.err{
+    border: 2px solid hsl(0, 87%, 67%);
+    &::placeholder{
+        color: hsl(0, 87%, 67%);
+    }
+}
+
+.input-center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-btn{
+    padding: 0;
+    margin:0;
+    border-radius: 6px;
+    border:none;
+    &:focus{
+        outline: none;
+    }
+}
+.shorten-btn{
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    padding: 2.2vh 2vw;
+    border-radius: 6px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.mobile-inpt{
+    display: none;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .input-center{
+        
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    .url-input-c{
+        background-color: hsl(257, 27%, 26%);
+        width: 80vw;
+        height: 25vh;
+        border-radius: 10px;
+        
+        
+    }
+    .shorten-btn{
+        width: 60vw ;
+        background-color: hsl(180, 66%, 49%);
+        color: white;
+        padding: 1.8vh 2vw;
+        border-radius: 6px;
+        text-align: center;
+        
+    }
+    .inpt{
+        bottom: -13vh;
+    }
+
+
+}

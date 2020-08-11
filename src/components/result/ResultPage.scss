@@ -1,0 +1,135 @@
+.result-page{
+    height: max-content;
+    padding-top: 5vh;
+    width: 100vw;
+    background-color: hsla(0, 0%, 75%, 0.473);
+    padding: 13vh 0vw 0vh 0vw
+    
+}
+.rsp{
+    padding: 0vh 10vw 0vh 10vw;
+}
+.original-url{
+    font-size: 1.1rem;
+    
+}
+.footer-section{
+    margin-right: 5vw;
+}
+.result-tile{
+    background-color: white;
+    padding: 3vh 2vw ;
+    width: 76vw;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.o-url{
+    width: 40vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.result-url-section{
+    display: flex;
+    align-items: center;
+}
+.result-url{
+    font-size: 1.1rem;
+    color: hsl(180, 66%, 49%);
+    margin-right: 2vw;
+}
+.tftr{
+    margin-top: 50vh;
+}
+.res-url{
+    font-size: 1.1rem;
+    color: hsl(180, 66%, 49%);
+    margin-right: 2vw;
+}
+.copy-btn{
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding: 1vh 2vw ;
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.copied{
+    background-color: hsl(257, 27%, 26%);
+}
+.line{
+    display: none;
+}
+.url-input-container{
+    margin-top: 5vh;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .result-page{
+        height: max-content;
+        
+        width: 100vw;
+        background-color: hsla(0, 0%, 75%, 0.473);
+        padding: 13vh 0vw 0vh 0vw
+        
+    }
+    .rsp{
+        padding: 0vh 10vw 0vh 10vw;
+    }
+    .result-tile{
+        margin-top: 3vh;
+        padding: 2.8vh 2vw ;
+        align-items: flex-start;
+        flex-direction: column;
+        
+        
+    }
+    
+    .copy-btn{
+        font-size: 0.9rem;
+        border-radius: 5px;
+        padding: 1vh 0vw ;
+        width: 75vw;
+        text-align: center;
+        color: white;
+        background-color: hsl(180, 66%, 49%);
+    }
+
+    .copied{
+        background-color: hsl(257, 27%, 26%);
+    }
+    .result-url-section{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .original-url{
+        color: hsl(260, 8%, 14%);
+        font-size: 1rem;
+        display: flex;
+        word-wrap: break-word;;
+    }
+    .o-url{
+        width: 75vw;
+    }
+    .result-url{
+        margin-bottom: 2vh;
+        font-size: 1rem;
+    }
+    .line{
+        display: unset;
+        height: 0.2vh;
+        width: 100%;
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        opacity: 90%;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 75%);
+    }
+
+}
